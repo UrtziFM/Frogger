@@ -11,6 +11,8 @@ function moveFrog(e) {
 
     squares[currentIndex].classList.remove("frog");
 
+    // time 29:00, limits to moves
+
     switch(e.key){
         case "ArrowLeft":
             console.log("move left");
